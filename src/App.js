@@ -1,4 +1,4 @@
-import logo from "./cheek.png";
+import logo from "./chizik.png";
 import screenshot1 from "./screenshots/screenshot_1.png";
 import screenshot2 from "./screenshots/screenshot_2.png";
 import "./App.scss";
