@@ -5,6 +5,10 @@ $primary-700: #00c580;
 // Import Pico
 @import "@picocss/pico/scss/pico";
 
+[data-theme="dark"] {
+  --primary: #00fea5;
+}
+
 * {
   word-break: keep-all;
   
