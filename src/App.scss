@@ -1,0 +1,97 @@
+$primary-500: #00fea5;
+$primary-600: #00dd90;
+$primary-700: #00c580;
+
+// Import Pico
+@import "@picocss/pico/scss/pico";
+
+* {
+  word-break: keep-all;
+  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  background-color: #1e2336;
+  text-align: center;
+  display: flex;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.Screenshot {
+  width: 40vmin;
+  pointer-events: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.Screenshot::before {
+  width: 40vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(236, 64, 64, 0), rgba(255, 255, 255, 1));
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.App-left {
+  flex: 1 0 0;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  min-height: 100vh;
+  @media screen and (max-width: 768px) {
+    flex: 1;
+    position: relative;
+    height: 75vh;
+    min-height: 75vh;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow-y: auto;
+}
+
+.App-right {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow-y: auto;
+}
+
+.App-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  height: 100vh;
+}
