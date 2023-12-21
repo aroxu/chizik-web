@@ -39,7 +39,7 @@ const Cheek = () => {
           <div className="App-content">
             <img src={screenshot1} className="Screenshot" alt="디스코드 방송 알림" />
             <br />
-            <h2>디스코드에서 방송 알림을 바로 보내보세요.</h2>
+            <h2>디스코드에 방송 알림을 바로 보내보세요.</h2>
             <p>나의 시청자들에게 쉽게 알림을 전송할 수 있습니다.</p>
           </div>
           <div className="App-content">
