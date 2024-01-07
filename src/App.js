@@ -55,6 +55,15 @@ const Cheek = () => {
         </div>
       </div>
       <footer className="App-footer">
+        <div>
+          <a href="https://chizik.aroxu.me/policy/tos" target="_blank" rel="noreferrer">
+            이용약관
+          </a>{" "}
+          |{" "}
+          <a href="https://chizik.aroxu.me/policy/privacy" target="_blank" rel="noreferrer">
+            개인정보 처리방침
+          </a>
+        </div>
         <code>© {new Date().getFullYear()} aroxu. All rights reserved.</code>
       </footer>
     </div>
