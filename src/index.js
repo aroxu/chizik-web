@@ -9,7 +9,7 @@ import Privacy from "./policy/privacy";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/chizik-web">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
         {/* <Route path="*" element={<NotFound />}></Route> */}
