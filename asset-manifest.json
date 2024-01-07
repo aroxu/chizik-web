@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chizik-web/static/css/main.5f90c5d0.css",
-    "main.js": "/chizik-web/static/js/main.6c1ae2a5.js",
+    "main.js": "/chizik-web/static/js/main.9456b594.js",
     "static/media/chizik.png": "/chizik-web/static/media/chizik.9a60e4fc5cc55255e504.png",
     "static/media/screenshot_2.png": "/chizik-web/static/media/screenshot_2.beb678d8d631f5e1db7e.png",
     "static/media/screenshot_1.png": "/chizik-web/static/media/screenshot_1.52ac9e7377cda4427d14.png",
     "index.html": "/chizik-web/index.html",
     "main.5f90c5d0.css.map": "/chizik-web/static/css/main.5f90c5d0.css.map",
-    "main.6c1ae2a5.js.map": "/chizik-web/static/js/main.6c1ae2a5.js.map"
+    "main.9456b594.js.map": "/chizik-web/static/js/main.9456b594.js.map"
   },
   "entrypoints": [
     "static/css/main.5f90c5d0.css",
-    "static/js/main.6c1ae2a5.js"
+    "static/js/main.9456b594.js"
   ]
 }
