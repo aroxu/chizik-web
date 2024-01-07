@@ -1,5 +1,6 @@
 {
   "name": "chizik",
+  "homepage": "https://aroxu.github.io/chizik-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
